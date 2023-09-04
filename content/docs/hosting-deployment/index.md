@@ -1,23 +1,24 @@
 ---
 date: "2020-08-07"
-description: Learn how to deploy a Congo site.
+description: Learn how to deploy a Blowfish site.
 draft: false
+series:
+- Documentation
+series_order: 14
 slug: hosting-deployment
-summary: Congo is designed to be flexible in almost any deployment scenario. Learn
-  more about how to deploy your project to some common hosting platforms.
 tags:
+- docs
 - hosting
 - deployment
-- docs
 - github
 - netlify
 - render
 title: Hosting & Deployment
 ---
 
-There are many ways to deploy your Hugo website built with Congo. The theme is designed to be flexible in almost any deployment scenario.
+There are many ways to deploy your Hugo website built with Blowfish. The theme is designed to be flexible in almost any deployment scenario.
 
-Congo is built using relative URLs throughout the theme. This enables sites to easily be deployed to sub-folders and hosts like GitHub Pages. There's usually no special configuration required for this to work as long as the `baseURL` parameter has been configured in the `config.toml` file.
+Blowfish is built using relative URLs throughout the theme. This enables sites to easily be deployed to sub-folders and hosts like GitHub Pages. There's usually no special configuration required for this to work as long as the `baseURL` parameter has been configured in the `config.toml` file.
 
 The official Hugo [Hosting and Deployment](https://gohugo.io/hosting-and-deployment/) docs are the best place to learn how to deploy your site. The sections below contain some specific theme configuration details that can help you deploy smoothly with certain providers.
 
@@ -53,7 +54,7 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -103,18 +104,18 @@ Then in the root of your site repository, create a `netlify.toml` file:
 
 [build.environment]
   NODE_ENV = "production"
-  GO_VERSION = "1.20"
+  GO_VERSION = "1.16"
   TZ = "UTC"  # Set to preferred timezone
 
 [context.production.environment]
-  HUGO_VERSION = "0.112.7"
+  HUGO_VERSION = "0.104.1"
   HUGO_ENV = "production"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.112.7"
+  HUGO_VERSION = "0.104.1"
 ```
 
-This configuration assumes you are deploying Congo as a Hugo module. If you have installed the theme using another method, change the build command to simply `hugo --gc --minify -b $URL`.
+This configuration assumes you are deploying Blowfish as a Hugo module. If you have installed the theme using another method, change the build command to simply `hugo --gc --minify -b $URL`.
 
 When you push the config file to your repo, Netlify should automatically deploy your site. You can check the deploy logs in the Netlify UI to check for any errors.
 
@@ -141,7 +142,7 @@ This problem can be fixed by disabling it:
 - Click _Optimization_ in the _Speed_ section
 - Scroll down to _Rocket Loader™_ and disable it
 
-Hugo sites built with Congo still load very quickly, even with this feature disabled.
+Hugo sites built with Blowfish still load very quickly, even with this feature disabled.
 
 ## Shared hosting, VPS or private web server
 

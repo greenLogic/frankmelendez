@@ -1,7 +1,7 @@
 ---
 date: "2019-03-09"
 description: Lorem Ipsum Dolor Si Amet
-draft: true
+draft: false
 lastmod: "2022-01-24"
 showDateUpdated: true
 tags:
@@ -10,6 +10,7 @@ tags:
 - sample
 - latin
 title: Placeholder Text
+type: sample
 xml: false
 ---
 

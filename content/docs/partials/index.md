@@ -1,10 +1,11 @@
 ---
 date: "2020-08-10"
-description: All the partials available in Congo.
+description: All the partials available in Blowfish.
 draft: false
+series:
+- Documentation
+series_order: 9
 slug: partials
-summary: Partials are used to add special functionality to the theme including analytics,
-  comments, favicons, custom scripts and more.
 tags:
 - partials
 - analytics
@@ -18,7 +19,7 @@ title: Partials
 
 ## Analytics
 
-Congo provides built-in support for Fathom Analytics and Google Analytics. Fathom is a paid alternative to Google Analytics that respects user privacy. If you're interested you can use this affiliate link to [receive $10 credit](https://usefathom.com/ref/RLAJSV) and try the service.
+Blowfish provides built-in support for Fathom Analytics and Google Analytics. Fathom is a paid alternative to Google Analytics that respects user privacy.
 
 ### Fathom Analytics
 
@@ -53,7 +54,7 @@ If you wish to use a different analytics provider on your website you can also o
 
 ## Comments
 
-To add comments to your articles, Congo includes support for a comments partial that is included at the base of each article page. Simply provide a `layouts/partials/comments.html` which contains the code required to display your chosen comments.
+To add comments to your articles, Blowfish includes support for a comments partial that is included at the base of each article page. Simply provide a `layouts/partials/comments.html` which contains the code required to display your chosen comments.
 
 You can use either the built-in Hugo Disqus template, or provide your own custom code. Refer to the [Hugo docs](https://gohugo.io/content-management/comments/) for further information.
 
@@ -61,7 +62,7 @@ Once the partial has been provided, finer control over where comments are displa
 
 ## Favicons
 
-Congo provides a default set of blank favicons to get started but you can provide your own assets to override them. The easiest way to obtain new favicon assets is to generate them using a third-party provider like [favicon.io](https://favicon.io).
+Blowfish provides a default set of blank favicons to get started but you can provide your own assets to override them. The easiest way to obtain new favicon assets is to generate them using a third-party provider like [favicon.io](https://favicon.io).
 
 Icon assets should be placed directly in the `static/` folder of your website and named as per the listing below. If you use [favicon.io](https://favicon.io), these will be the filenames that are automatically generated for you, but you can provide your own assets if you wish.
 
@@ -80,7 +81,7 @@ Alternatively, you can also completely override the default favicon behaviour an
 
 ## Icon
 
-Similar to the [icon shortcode]({{< ref "shortcodes#icon" >}}), you can include icons in your own templates and partials by using Congo's `icon.html` partial. The partial takes one parameter which is the name of the icon to be included.
+Similar to the [icon shortcode]({{< ref "shortcodes#icon" >}}), you can include icons in your own templates and partials by using Blowfish's `icon.html` partial. The partial takes one parameter which is the name of the icon to be included.
 
 **Example:**
 
@@ -88,7 +89,7 @@ Similar to the [icon shortcode]({{< ref "shortcodes#icon" >}}), you can include 
   {{ partial "icon.html" "github" }}
 ```
 
-Icons are populated using Hugo pipelines which makes them very flexible. Congo includes a number of built-in icons for social, links and other purposes. Check the [icon samples]({{< ref "samples/icons" >}}) page for a full list of supported icons.
+Icons are populated using Hugo pipelines which makes them very flexible. Blowfish includes a number of built-in icons for social, links and other purposes. Check the [icon samples]({{< ref "samples/icons" >}}) page for a full list of supported icons.
 
 Custom icons can be added by providing your own icon assets in the `assets/icons/` directory of your project. The icon can then be referenced in the partial by using the SVG filename without the `.svg` extension.
 
@@ -96,7 +97,7 @@ Icons can also be used in article content by calling the [icon shortcode]({{< re
 
 ## Extensions
 
-Congo also provides for a number of extension partials that allow for expanding upon base functionality.
+Blowfish also provides for a number of extension partials that allow for expanding upon base functionality.
 
 ### Article link
 

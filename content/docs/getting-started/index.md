@@ -1,11 +1,11 @@
 ---
 date: "2020-08-15"
-description: Learn how to get started using the Congo theme.
+description: All the front matter variables available in Blowfish.
 draft: false
+series:
+- Documentation
+series_order: 3
 slug: getting-started
-summary: This section assumes you have already installed the Congo theme and are ready
-  to start with basic configuration tasks like selecting a colour scheme, menu and
-  content structure.
 tags:
 - installation
 - docs
@@ -13,10 +13,10 @@ title: Getting Started
 ---
 
 {{< alert >}}
-This section assumes you have already [installed the Congo theme]({{< ref "docs/installation" >}}).
+This section assumes you have already [installed the Blowfish theme]({{< ref "docs/installation" >}}).
 {{< /alert >}}
 
-The config files that ship with Congo contain all of the possible settings that the theme recognises. By default, many of these are commented out but you can simply uncomment them to activate or change a specific feature.
+The config files that ship with Blowfish contain all of the possible settings that the theme recognises. By default, many of these are commented out but you can simply uncomment them to activate or change a specific feature.
 
 ## Basic configuration
 
@@ -29,12 +29,12 @@ baseURL = "https://your_domain.com/"
 languageCode = "en"
 ```
 
-The next step is to configure the language settings. Although Congo supports multilingual setups, for now, just configure the main language.
+The next step is to configure the language settings. Although Blowfish supports multilingual setups, for now, just configure the main language.
 
 Locate the `languages.en.toml` file in the config folder. If your main language is English you can use this file as is. Otherwise, rename it so that it includes the correct language code in the filename. For example, for French, rename the file to `languages.fr.toml`.
 
 {{< alert >}}
-The language code in the language config filename should match the `languageCode` setting in `config.toml`.
+Note that the language code in the language config filename should match the `languageCode` setting in `config.toml`.
 {{< /alert >}}
 
 ```toml
@@ -58,57 +58,63 @@ If you need extra detail, further information about each of these configuration 
 
 ## Colour schemes
 
-Congo ships with a number of colour schemes out of the box. To change the scheme, simply set the `colorScheme` theme parameter. Valid options are `congo` (default), `avocado`, `cherry`, `fire`, `ocean`, `sapphire` and `slate`.
-
-{{< alert >}}
-The `colourScheme` value should be provided in lowercase.
-{{< /alert >}}
+Blowfish ships with a number of colour schemes out of the box. To change the scheme, simply set the `colorScheme` theme parameter. Valid options are `blowfish` (default), `avocado`, `fire`, `ocean` and `slate`.
 
 ```toml
 # config/_default/params.toml
 
-colorScheme = "congo"
+colorScheme = "blowfish"
 ```
 
-Congo defines a three-colour palette that is used throughout the theme. Each main colour contains ten shades which are based upon the colours that are included in [Tailwind](https://tailwindcss.com/docs/customizing-colors#color-palette-reference).
+Blowfish defines a three-colour palette that is used throughout the theme. Each main colour contains ten shades which are based upon the colours that are included in [Tailwind](https://tailwindcss.com/docs/customizing-colors#color-palette-reference).
 
-#### Congo (default)
-
-{{< swatches "#71717a" "#8b5cf6" "#d946ef" >}}
-
-#### Avocado
-
-{{< swatches "#78716c" "#84cc16" "#10b981" >}}
-
-#### Cherry
-
-{{< swatches "#737373" "#f43f5e" "#22c55e" >}}
-
-#### Fire
-
-{{< swatches "#78716c" "#f97316" "#f43f5e" >}}
-
-#### Ocean
-
+#### Blowfish (default)
 {{< swatches "#64748b" "#3b82f6" "#06b6d4" >}}
 
-#### Sapphire
+#### Avocado
+{{< swatches "#78716c" "#84cc16" "#10b981" >}}
 
-{{< swatches "#64748b" "#6366f1" "#ec4899" >}}
+#### Fire
+{{< swatches "#78716c" "#f97316" "#f43f5e" >}}
+
+#### Forest
+{{< swatches "#658c86" "#3bf5df" "#06d45c" >}}
+
+#### Princess
+{{< swatches "#8c658c" "#f53bf2" "#7706d4" >}}
+
+#### Neon
+{{< swatches "#8338ec" "#ff006e" "#3a86ff" >}}
+
+#### Bloody
+{{< swatches "#d90429" "#8d99ae" "#457b9d" >}}
+
+#### Terminal
+{{< swatches "#004b23" "#38b000" "#1a759f" >}}
+
+#### Marvel
+{{< swatches "#2541b2" "#d81159" "#ffbc42" >}}
+
+#### Noir
+{{< swatches "#5c6b73" "#9db4c0" "#00a5cf" >}}
+
+#### Autumn
+{{< swatches "#0a9396" "#ee9b00" "#bb3e03" >}}
+
+#### Congo
+{{< swatches "#71717a" "#8b5cf6" "#d946ef" >}}
 
 #### Slate
-
 {{< swatches "#6B7280" "#64748b" "#6B7280" >}}
+
 
 Although these are the default schemes, you can also create your own. Refer to the [Advanced Customisation]({{< ref "advanced-customisation#colour-schemes" >}}) section for details.
 
 ## Organising content
 
-By default, Congo doesn't force you to use a particular content type. In doing so you are free to define your content as you wish. You might prefer _pages_ for a static site, _posts_ for a blog, or _projects_ for a portfolio.
+By default, Blowfish doesn't force you to use a particular content type. In doing so you are free to define your content as you wish. You might prefer _pages_ for a static site, _posts_ for a blog, or _projects_ for a portfolio.
 
-### Directory structure
-
-Here's a quick overview of a basic Congo project. All content is placed within the `content` folder:
+Here's a quick overview of a basic Blowfish project. All content is placed within the `content` folder:
 
 ```shell
 .
@@ -127,49 +133,12 @@ Here's a quick overview of a basic Congo project. All content is placed within t
 │           ├── aardvark.jpg
 │           └── index.md
 └── themes
-    └── congo
+    └── blowfish
 ```
-
-{{< alert >}}
-The key thing to note here is that within the content directory, normal article pages are named `index.md` while list pages are named `_index.md`. Any assets that go along with the article should be placed in a sub-directory alongside the index file.
-{{< /alert >}}
 
 It's important to have a firm grasp of how Hugo expects content to be organised as the theme is designed to take full advantage of Hugo page bundles. Be sure to read the [official Hugo docs](https://gohugo.io/content-management/organization/) for more information.
 
-### Feature, cover and thumbnail images
-
-The Congo theme supports displaying images on article listings and at the top of individual article pages. There are three types of images supported, each with their own use case: `feature`, `cover` and `thumb`.
-
-In the example below, a cover and thumb image have been provided for the `first-post` article:
-
-```shell
-.
-└── content
-    └── posts
-        ├── _index.md
-        └── first-post
-            ├── cover.jpg
-            ├── index.md
-            └── thumb.jpg
-```
-
-The `thumb` image is used as the article thumbnail and will be displayed in article lists, and the `cover` image will be displayed at the top of the article content on individual article pages.
-
-![A screenshot of an article with a thumbnail image](article-screenshot.jpg "This example shows an article with a thumbnail image.")
-
-{{< alert >}}
-In order to provide maximum performance, thumbnail images are automatically cropped and resized to a 4:3 ratio. Cover images will be automatically resized to fit their content, but any ratio is permitted.
-{{< /alert >}}
-
-The `feature` image is a special type, and when present, it will be used in place of _both_ the `thumb` and `cover` images. Feature images are also present in the article metadata, which is included when content is shared to third-party networks like Facebook and Twitter.
-
-The theme will intelligently detect article images and automatically add them to your site. You don't have to refer to them in the front matter and simply need to place an appropriately named file within the page resources. If the term `feature`, `cover` or `thumb` is found anywhere in the image filename, then it will be used for that purpose.
-
-The [Samples section]({{< ref "samples" >}}) provides a number of examples of these images (and you can view the [source code](https://github.com/jpanther/congo/tree/dev/exampleSite/content/samples) to see the file structure).
-
-### Taxonomies
-
-Congo is also flexible when it comes to taxonomies. Some people prefer to use _tags_ and _categories_ to group their content, others prefer to use _topics_.
+Blowfish is also flexible when it comes to taxonomies. Some people prefer to use _tags_ and _categories_ to group their content, others prefer to use _topics_.
 
 Hugo defaults to using posts, tags and categories out of the box and this will work fine if that's what you want. If you wish to customise this, however, you can do so by creating a `taxonomies.toml` configuration file:
 
@@ -185,12 +154,12 @@ When you create a new taxonomy, you will need to adjust the navigation links on 
 
 ## Menus
 
-Congo has two menus that can be customised to suit the content and layout of your site. The `main` menu appears in the site header and the `footer` menu appears at the bottom of the page just above the copyright notice.
+Blowfish has two menus that can be customised to suit the content and layout of your site. The `main` menu appears in the site header and the `footer` menu appears at the bottom of the page just above the copyright notice.
 
-Both menus are configured in the `menus.en.toml` file. Similarly to the languages config file, if you wish to use another language, rename this file and replace `en` with the language code you wish to use. Menu links will be sorted from lowest to highest `weight`, and then alphabetically by `name`.
+Both menus are configured in the `menus.en.toml` file. Similarly to the languages config file, if you wish to use another language, rename this file and replace `en` with the language code you wish to use.
 
 ```toml
-# config/_default/menus.en.toml
+# config/_default/menus.toml
 
 [[main]]
   name = "Blog"
@@ -203,45 +172,91 @@ Both menus are configured in the `menus.en.toml` file. Similarly to the language
   weight = 20
 
 [[main]]
+  pre = "github"
   name = "GitHub"
-  url = "https://github.com/jpanther/congo"
+  url = "https://github.com/nunocoracao/blowfish"
   weight = 30
-  [main.params]
-    icon = "github"
-    showName = false
-    target = "_blank"
 
 [[main]]
-  identifier = "search"
-  weight = 99
-  [main.params]
-    action = "search"
-    icon = "search"
+  identifier = "github2"
+  pre = "github"
+  url = "https://github.com/nunocoracao/blowfish"
+  weight = 40
 
 [[footer]]
   name = "Privacy"
-  pageRef = "privacy"
+  url = "https://external-link"
 ```
-
-### Basic links
 
 The `name` parameter specifies the text that is used in the menu link. You can also optionally provide a `title` which fills the HTML title attribute for the link.
 
 The `pageRef` parameter allows you to easily reference Hugo content pages and taxonomies. It is the quickest way to configure the menu as you can simply refer to any Hugo content item and it will automatically build the correct link. To link to external URLs, the `url` parameter can be used.
 
-Further customisation can be achieved through the use of special theme parameters. Providing `params` within a link allows the addition of an `icon`, the ability to toggle the link text with `showName` and to optionally set a `target` for the URL. In the example above, the GitHub link will only display as an icon and will open the link in a new window.
+The `pre` parameter allows you to place an icon from [Blowfish's icon set]({{< ref "samples/icons" >}}) on the menu entry. This parameter can be used with `name` parameter or by itself. If you want to use multiple menu entries with just icons please set the `identifier`parameter otherwise Hugo will default to the naming tag as the id and probably not display all the menu entries.
 
-### Action links
+Menu links will be sorted from lowest to highest `weight`, and then alphabetically by `name`.
 
-There is a special case for creating menu items for links that take theme actions. These are denoted using the `action` parameter, and a value of the action the link should perform. Action links allow for all the same custom parameters as other links and can be styled with an icon or text name.
+Both menus are completely optional and can be commented out if not required. Use the template provided in the file as a guide.
 
-There are two valid theme actions:
+### Nested menus
 
-- `appearance` will create a link to the appearance switcher
-- `search` will create a link to the site search
+The theme also supports nested menus. In order to use them you just need to define a parent entry in `menu.toml` and its sub-menus using the `parent` parameter to reference the parent. All properties can be used for sub-menus. `pageRef` and `url` can also be used in the parent entry. Nested menus are only available in the main menu not for the footer.
 
-Both menus are completely optional and can be commented out if not required. Use the template provided in the default file as a guide.
+```toml
+# config/_default/menus.toml
+
+[[main]]
+  name = "Parent"
+  weight = 20
+
+[[main]]
+  name = "sub-menu 1"
+  parent = "Parent"
+  pageRef = "samples"
+  weight = 20
+
+[[main]]
+  name = "sub-menu 2"
+  parent = "Parent"
+  pageRef = "samples"
+  weight = 20
+
+[[main]]
+  name = "sub-menu 3"
+  parent = "Parent"
+  pre = "github"
+  pageRef = "samples"
+  weight = 20
+```
+
+### Sub-Navigation menu
+
+Additionally, you can also configure a sub-navigation menu. Just define new menu entries as `subnavigation` in `menu.toml`. This will render a second line with caregories below the main header menu.
+
+```toml
+# config/_default/menus.toml
+
+[[subnavigation]]
+  name = "An interesting topic"
+  pageRef = "tags/interesting-topic"
+  weight = 10
+
+[[subnavigation]]
+  name = "My Awesome Category"
+  pageRef = "categories/awesome"
+  weight = 20
+```
+
+
+
+## Thumbnails & Backgrounds
+
+Blowfish was built so it would be easy to add visual support to your articles. If your familiar with Hugo article strucutre, you just need to place an image file (almost all formats are supported bue we recommend `.png` or `.jpg`) that starts with `feature*` inside your article folder. And that's it, Blowfish will then able to both use the image as a thumbnail within your website as well as for <a target="_blank" href="https://oembed.com/">oEmbed</a> cards across social platforms. 
+
+[Here]({{< ref "thumbnails" >}}) is also a guide with more info and a [sample]({{< ref "thumbnail_sample" >}}) if you want to see how you can do it.
+
+Additionally, Blowfish also supports background hero images in articles and lists. In order to use a different image than the featured one, add an image file in which the name starts with `background*`.
 
 ## Detailed configuration
 
-The steps above are the bare minimum configuration. If you now run `hugo server` you will be presented with a blank Congo website. Detailed configuration is covered in the [Configuration]({{< ref "configuration" >}}) section.
+The steps above are the bare minimum configuration. If you now run `hugo server` you will be presented with a blank Blowfish website. Detailed configuration is covered in the [Configuration]({{< ref "configuration" >}}) section.

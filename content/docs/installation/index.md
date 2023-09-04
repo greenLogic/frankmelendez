@@ -1,10 +1,11 @@
 ---
 date: "2020-08-16"
-description: How to install the Congo theme.
+description: How to install the Blowfish theme.
 draft: false
+series:
+- Documentation
+series_order: 2
 slug: installation
-summary: Learn how to get up and running using Hugo and Congo from a completely blank
-  state. It's the best place to start if you're a new user.
 tags:
 - installation
 - docs
@@ -17,7 +18,7 @@ Detailed installation instructions can be found below. Instructions for [updatin
 
 ## Installation
 
-These instructions will get you up and running using Hugo and Congo from a completely blank state. Most of the dependencies mentioned in this guide can be installed using the package manager of choice for your platform.
+These instructions will get you up and running using Hugo and Blowfish from a completely blank state. Most of the dependencies mentioned in this guide can be installed using the package manager of choice for your platform.
 
 ### Install Hugo
 
@@ -35,19 +36,33 @@ Run the command `hugo new site mywebsite` to create a new Hugo site in a directo
 
 Note that you can name the project directory whatever you choose, but the instructions below will assume it's named `mywebsite`. If you use a different name, be sure to substitute it accordingly.
 
-### Download the Congo theme
+### Download the Blowfish theme
 
-There several different ways to install the Congo theme into your Hugo website. From easiest to most difficult to install and maintain, they are:
+There several different ways to install the Blowfish theme into your Hugo website. From easiest to most difficult to install and maintain, they are:
 
-- [Hugo module](#install-using-hugo) (recommended)
-- [Git submodule](#install-using-git)
+- [Git submodule](#install-using-git) (recommended)
+- [Hugo module](#install-using-hugo) 
 - [Manual file copy](#install-manually)
 
-If you're unsure, choose the Hugo module method.
+If you're unsure, choose the Git submodule method. 
+
+#### Install using git
+
+This method is the quickest and easiest for keeping the theme up-to-date. Besides **Hugo** and **Go**, you'll also need to ensure you have **Git** installed on your local machine.
+
+Change into the directory for your Hugo website (that you created above), initialise a new `git` repository and add Blowfish as a submodule.
+
+```bash
+cd mywebsite
+git init
+git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
+```
+
+Then continue to [set up the theme configuration files](#set-up-theme-configuration-files).
 
 #### Install using Hugo
 
-This method is the quickest and easiest for keeping the theme up-to-date. Hugo uses **Go** to initialise and manage modules so you need to ensure you have `go` installed before proceeding.
+For this method you'll use Hugo to manage your themes. Hugo uses **Go** to initialise and manage modules so you need to ensure you have `go` installed before proceeding.
 
 1. [Download](https://golang.org/dl/) and install Go. You can check if it's already installed by using the command `go version`.
 
@@ -69,33 +84,19 @@ This method is the quickest and easiest for keeping the theme up-to-date. Hugo u
 
    ```toml
    [[imports]]
-   path = "github.com/jpanther/congo/v2"
+   path = "github.com/nunocoracao/blowfish/v2"
    ```
 
 4. Start your server using `hugo server` and the theme will be downloaded automatically.
 5. Continue to [set up the theme configuration files](#set-up-theme-configuration-files).
 
-#### Install using git
-
-For this method you'll need to ensure you have **Git** installed on your local machine.
-
-Change into the directory for your Hugo website (that you created above), initialise a new `git` repository and add Congo as a submodule.
-
-```bash
-cd mywebsite
-git init
-git submodule add -b stable https://github.com/jpanther/congo.git themes/congo
-```
-
-Then continue to [set up the theme configuration files](#set-up-theme-configuration-files).
-
 #### Install manually
 
 1. Download the latest release of the theme source code.
 
-   {{< button href="https://github.com/jpanther/congo/releases/latest" target="_blank" >}}Download from Github{{< /button >}}
+   {{< button href="https://github.com/nunocoracao/blowfish/releases/latest" target="_blank" >}}Download from Github{{< /button >}}
 
-2. Extract the archive, rename the folder to `congo` and move it to the `themes/` directory inside your Hugo project's root folder.
+2. Extract the archive, rename the folder to `blowfish` and move it to the `themes/` directory inside your Hugo project's root folder.
 3. Continue to [set up the theme configuration files](#set-up-theme-configuration-files).
 
 ### Set up theme configuration files
@@ -108,39 +109,50 @@ In the root folder of your website, delete the `config.toml` file that was gener
 
 Depending on how you installed the theme you will find the theme config files in different places:
 
-- **Hugo Modules:** In the Hugo cache directory, or [download a copy](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/jpanther/congo/tree/stable/config/_default) from GitHub
-- **Git submodule or Manual install:** `themes/congo/config/_default`
+- **Hugo Modules:** In the Hugo cache directory, or [download a copy](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/nunocoracao/blowfish/tree/main/config/_default) from GitHub
+- **Git submodule or Manual install:** `themes/blowfish/config/_default`
 
 Once you've copied the files, your config folder should look like this:
 
 ```shell
 config/_default/
 ├─ config.toml
+├─ languages.en.toml
 ├─ markup.toml
-├─ menus.toml
+├─ menus.en.toml
 ├─ module.toml  # if you installed using Hugo Modules
 └─ params.toml
 ```
 
 {{< alert >}}
-**Important:** If you didn't use Hugo Modules to install Congo, you must add the line `theme = "congo"` to the top of your `config.toml` file.
+**Important:** If you didn't use Hugo Modules to install Blowfish, you must add the line `theme = "blowfish"` to the top of your `config.toml` file.
 {{< /alert >}}
 
 ### Next steps
 
-The basic Congo installation is now complete. Continue to the [Getting Started]({{< ref "getting-started" >}}) section to learn more about configuring the theme.
+The basic Blowfish installation is now complete. Continue to the [Getting Started]({{< ref "getting-started" >}}) section to learn more about configuring the theme.
 
 ---
 
 ## Installing updates
 
-From time to time there will be [new releases](https://github.com/jpanther/congo/releases) posted that apply fixes and add new functionality to the theme. In order to take advantage of these changes, you will need to update the theme files on your website.
+From time to time there will be [new releases](https://github.com/nunocoracao/blowfish/releases) posted that apply fixes and add new functionality to the theme. In order to take advantage of these changes, you will need to update the theme files on your website.
 
 How you go about this will depend on the installation method you chose when the theme was originally installed. Instructions for each method can be found below.
 
-- [Hugo module](#update-using-hugo)
 - [Git submodule](#update-using-git)
+- [Hugo module](#update-using-hugo)
 - [Manual file copy](#update-manually)
+
+### Update using git
+
+Git submodules can be updated using the `git` command. Simply execute the following command and the latest version of the theme will be downloaded into your local repository:
+
+```shell
+git submodule update --remote --merge
+```
+
+Once the submodule has been updated, rebuild your site and check everything works as expected.
 
 ### Update using Hugo
 
@@ -154,19 +166,9 @@ Hugo will automatically update any modules that are required for your project. I
 
 Then simply rebuild your site and check everything works as expected.
 
-### Update using git
-
-Git submodules can be updated using the `git` command. Simply execute the following command and the latest version of the theme will be downloaded into your local repository:
-
-```shell
-git submodule update --remote --merge
-```
-
-Once the submodule has been updated, rebuild your site and check everything works as expected.
-
 ### Update manually
 
-Updating Congo manually requires you to download the latest copy of the theme and replace the old version in your project.
+Updating Blowfish manually requires you to download the latest copy of the theme and replace the old version in your project.
 
 {{< alert >}}
 Note that any local customisations you have made to the theme files will be lost during this process.
@@ -174,8 +176,8 @@ Note that any local customisations you have made to the theme files will be lost
 
 1. Download the latest release of the theme source code.
 
-   {{< button href="https://github.com/jpanther/congo/releases/latest" target="_blank" >}}Download from Github{{< /button >}}
+   {{< button href="https://github.com/nunocoracao/blowfish/releases/latest" target="_blank" >}}Download from Github{{< /button >}}
 
-2. Extract the archive, rename the folder to `congo` and move it to the `themes/` directory inside your Hugo project's root folder. You will need to overwrite the existing directory to replace all the theme files.
+2. Extract the archive, rename the folder to `blowfish` and move it to the `themes/` directory inside your Hugo project's root folder. You will need to overwrite the existing directory to replace all the theme files.
 
 3. Rebuild your site and check everything works as expected.

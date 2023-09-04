@@ -1,12 +1,13 @@
 ---
 date: "2019-03-08"
-description: A brief sample of mathematical notation in Congo.
+description: A brief sample of mathematical notation in Blowfish.
 tags:
 - sample
 - katex
 - maths
 - shortcodes
 title: Mathematical notation
+type: sample
 ---
 
 KaTeX can be used to render mathematical notation within articles.
@@ -15,9 +16,12 @@ KaTeX can be used to render mathematical notation within articles.
 
 {{< katex >}}
 
-Congo will only bundle the KaTeX assets into your project if you make use of mathematical notation. In order for this to work, simply include the [`katex` shortcode]({{< ref "docs/shortcodes#katex" >}}) within the article. Any KaTeX syntax on that page will then be automatically rendered.
+Blowfish will only bundle the KaTeX assets into your project if you make use of mathematical notation. In order for this to work, simply include the [`katex` shortcode]({{< ref "docs/shortcodes#katex" >}}) within the article. Example below:
 
-Use the online reference of [supported TeX functions](https://katex.org/docs/supported.html) for the available syntax.
+```md
+{{</* katex */>}}
+```
+Any KaTeX syntax on that page will then be automatically rendered. Use the online reference of [supported TeX functions](https://katex.org/docs/supported.html) for the available syntax.
 
 ## Inline notation
 

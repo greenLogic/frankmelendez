@@ -38,9 +38,11 @@ The full list of built-in icons and their corresponding names can referenced bel
 | google               | {{< icon google >}}               |
 | hashnode             | {{< icon hashnode >}}             |
 | instagram            | {{< icon instagram >}}            |
+| kaggle               | {{< icon kaggle >}}               |
 | keybase              | {{< icon keybase >}}              |
 | kickstarter          | {{< icon kickstarter >}}          |
 | lastfm               | {{< icon lastfm >}}               |
+| leetcode             | {{< icon leetcode >}}             |
 | lightbulb            | {{< icon lightbulb >}}            |
 | link                 | {{< icon link >}}                 |
 | linkedin             | {{< icon linkedin >}}             |

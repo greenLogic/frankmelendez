@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frank Meléndez</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Frank Meléndez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Francisco Aguilar Meléndez</copyright>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Into the Lion&#39;s Den</title>
+      <link>//localhost:1313/projects/first-project/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/first-project/</guid>
+      <description>Previous Nextsads asdfasfasdf
+{{ $url := .Get &amp;#34;url&amp;#34;}} {{ with resources.GetRemote (printf $url) }} {{ .Content | markdownify }} {{ else }} {{ errorf &amp;#34;Mardown Importer Shortcode - Unable to get remote resource&amp;#34; .</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/first-project/cover.png" />
+    </item>
+    
+    <item>
+      <title>Into the Lion&#39;s Den 2</title>
+      <link>//localhost:1313/projects/another-project/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/another-project/</guid>
+      <description>title: &amp;ldquo;Into the Lion&amp;rsquo;s Den&amp;rdquo; description: &amp;ldquo;This week we&amp;rsquo;re learning about lions.&amp;rdquo;
+algorithms: [&amp;ldquo;sorting&amp;rdquo;, &amp;ldquo;hashing&amp;rdquo;] # tags: [&amp;ldquo;machine learning&amp;rdquo;, &amp;ldquo;deep learning&amp;rdquo;] series: [&amp;ldquo;Projects&amp;rdquo;] series_order: 1
+date: 2024-04-04 draft: false # Previous Nextsads asdfasfasdf</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/another-project/cover.png" />
+    </item>
+    
+    <item>
+      <title>Super cool article that I wrote</title>
+      <link>//localhost:1313/posts/post-lite-one/</link>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/post-lite-one/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/post-lite-one/cover.png" />
+    </item>
+    
+    <item>
+      <title>Super cool article that I wrote</title>
+      <link>//localhost:1313/posts/post-lite-three/</link>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/post-lite-three/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/post-lite-three/cover.png" />
+    </item>
+    
+    <item>
+      <title>Super cool article that I wrote</title>
+      <link>//localhost:1313/posts/post-lite-two/</link>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/post-lite-two/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/post-lite-two/cover.png" />
+    </item>
+    
+    <item>
+      <title>Super cool article that I wrote</title>
+      <link>//localhost:1313/posts/post-lite-four/</link>
+      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/post-lite-four/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/post-lite-four/cover.png" />
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>//localhost:1313/singles/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/singles/about-me/</guid>
+      <description>About Me Page: Purpose: The &amp;ldquo;About Me&amp;rdquo; page provides a personal touch, allowing visitors to learn more about who you are beyond your professional credentials. It helps establish a connection and gives insight into your personality, interests, and professional philosophy.</description>
+      
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>//localhost:1313/singles/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/singles/cv/</guid>
+      <description>CV Page: Purpose: A &amp;ldquo;CV&amp;rdquo; or &amp;ldquo;Resume&amp;rdquo; page provides a detailed look at your professional experience, education, skills, and accomplishments. This is essential for potential employers or collaborators who want to see your qualifications at a glance.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

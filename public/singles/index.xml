@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Singles on Frank Meléndez</title>
+    <link>//localhost:1313/singles/</link>
+    <description>Recent content in Singles on Frank Meléndez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Francisco Aguilar Meléndez</copyright>
+    <atom:link href="//localhost:1313/singles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>//localhost:1313/singles/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/singles/about-me/</guid>
+      <description>About Me Page: Purpose: The &amp;ldquo;About Me&amp;rdquo; page provides a personal touch, allowing visitors to learn more about who you are beyond your professional credentials. It helps establish a connection and gives insight into your personality, interests, and professional philosophy.</description>
+      
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>//localhost:1313/singles/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/singles/cv/</guid>
+      <description>CV Page: Purpose: A &amp;ldquo;CV&amp;rdquo; or &amp;ldquo;Resume&amp;rdquo; page provides a detailed look at your professional experience, education, skills, and accomplishments. This is essential for potential employers or collaborators who want to see your qualifications at a glance.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

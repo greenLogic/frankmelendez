@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning on Frank Meléndez</title>
+    <link>//localhost:1313/tags/deep-learning/</link>
+    <description>Recent content in Deep Learning on Frank Meléndez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Francisco Aguilar Meléndez</copyright>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Into the Lion&#39;s Den</title>
+      <link>//localhost:1313/projects/first-project/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/first-project/</guid>
+      <description>Previous Nextsads asdfasfasdf
+{{ $url := .Get &amp;#34;url&amp;#34;}} {{ with resources.GetRemote (printf $url) }} {{ .Content | markdownify }} {{ else }} {{ errorf &amp;#34;Mardown Importer Shortcode - Unable to get remote resource&amp;#34; .</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/first-project/cover.png" />
+    </item>
+    
+  </channel>
+</rss>

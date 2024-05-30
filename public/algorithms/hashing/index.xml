@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hashing on Frank Meléndez</title>
+    <link>//localhost:1313/algorithms/hashing/</link>
+    <description>Recent content in Hashing on Frank Meléndez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Francisco Aguilar Meléndez</copyright>
+    <atom:link href="//localhost:1313/algorithms/hashing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Into the Lion&#39;s Den</title>
+      <link>//localhost:1313/projects/first-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/first-project/</guid>
+      <description>asfsdfasdf
+asdfasfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasfasd
+asfsdfasdf
+asdfasfasdf
+asdfasdfasdf
+asdfasdfasdf
+asdfasfasd</description>
+      
+    </item>
+    
+  </channel>
+</rss>

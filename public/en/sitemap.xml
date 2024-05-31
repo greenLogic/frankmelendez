@@ -7,12 +7,32 @@
     <lastmod>2024-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/tags/data-science/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/tags/data-science/"
+    />
   </url>
   <url>
     <loc>//localhost:1313/tags/deep-learning/</loc>
     <lastmod>2024-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/tags/deep-learning/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/tags/deep-learning/"
+    />
   </url>
   <url>
     <loc>//localhost:1313/</loc>
@@ -35,30 +55,80 @@
     <lastmod>2024-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/projects/first-project/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/projects/first-project/"
+    />
   </url>
   <url>
     <loc>//localhost:1313/projects/another-project/</loc>
     <lastmod>2024-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/projects/another-project/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/projects/another-project/"
+    />
   </url>
   <url>
     <loc>//localhost:1313/tags/machine-learning/</loc>
     <lastmod>2024-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/tags/machine-learning/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/tags/machine-learning/"
+    />
   </url>
   <url>
     <loc>//localhost:1313/series/projects/</loc>
     <lastmod>2024-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/series/projects/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/series/projects/"
+    />
   </url>
   <url>
     <loc>//localhost:1313/projects/</loc>
     <lastmod>2024-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/projects/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/projects/"
+    />
   </url>
   <url>
     <loc>//localhost:1313/series/</loc>
@@ -272,6 +342,16 @@
     <loc>//localhost:1313/singles/about-me/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/singles/about-me/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/singles/about-me/"
+    />
   </url>
   <url>
     <loc>//localhost:1313/algorithms/</loc>
@@ -307,10 +387,30 @@
     <loc>//localhost:1313/singles/cv/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/singles/cv/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/singles/cv/"
+    />
   </url>
   <url>
     <loc>//localhost:1313/singles/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/singles/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/singles/"
+    />
   </url>
 </urlset>

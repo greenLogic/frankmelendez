@@ -3,6 +3,166 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>//localhost:1313/es/tags/data-science/</loc>
+    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/tags/data-science/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/tags/data-science/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/es/tags/deep-learning/</loc>
+    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/tags/deep-learning/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/tags/deep-learning/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/es/</loc>
+    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/es/projects/first-project/</loc>
+    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/projects/first-project/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/projects/first-project/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/es/projects/another-project/</loc>
+    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/projects/another-project/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/projects/another-project/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/es/tags/machine-learning/</loc>
+    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/tags/machine-learning/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/tags/machine-learning/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/es/series/projects/</loc>
+    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/series/projects/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/series/projects/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/es/projects/</loc>
+    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/projects/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/projects/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/es/series/</loc>
+    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/series/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/series/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/es/tags/</loc>
+    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/tags/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/tags/"
+    />
+  </url>
+  <url>
     <loc>//localhost:1313/es/posts/post-lite-one/</loc>
     <lastmod>2022-09-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -80,22 +240,6 @@
       rel="alternate"
       hreflang="es"
       href="//localhost:1313/es/categories/"
-    />
-  </url>
-  <url>
-    <loc>//localhost:1313/es/</loc>
-    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/"
     />
   </url>
   <url>
@@ -179,22 +323,6 @@
     />
   </url>
   <url>
-    <loc>//localhost:1313/es/tags/</loc>
-    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/tags/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/tags/"
-    />
-  </url>
-  <url>
     <loc>//localhost:1313/es/posts/post-lite-four/</loc>
     <lastmod>2021-09-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -241,18 +369,48 @@
     />
   </url>
   <url>
-    <loc>//localhost:1313/es/series/</loc>
+    <loc>//localhost:1313/es/singles/cv/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="//localhost:1313/series/"
+      href="//localhost:1313/singles/cv/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="es"
-      href="//localhost:1313/es/series/"
+      href="//localhost:1313/es/singles/cv/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/es/singles/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/singles/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/singles/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/es/singles/about-me/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/singles/about-me/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/singles/about-me/"
     />
   </url>
 </urlset>

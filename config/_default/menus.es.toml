@@ -16,34 +16,36 @@
   weight = 10
 
 [[main]]
-  name = "Tags"
-  pageRef = "tags"
+  name = "Portfolio"
+  pageRef = "projects"
   weight = 20
 
-# [[main]]
-#   identifier = "web"
-#   pre = "link"
-#   url = "https://nunocoracao.github.io/blowfish/"
-#   weight = 40
+[[main]]
+  name = "CV"
+  pageRef = "singles/cv"
+  weight = 30
+
+[[main]]
+  name = "Sobre Mi"
+  pageRef = "singles/about-me"
+  weight = 40
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 50
 
 [[main]]
   identifier = "github"
   pre = "github"
   url = "https://github.com/greenLogic"
-  weight = 50
-
-# [[main]]
-#   identifier = "twitter"
-#   pre = "twitter"
-#   url = "https://twitter.com/burufugu"
-#   weight = 60
-
+  weight = 60
 
 [[main]]
   identifier = "linkedin"
   pre = "linkedin"
   url = "https://www.linkedin.com/in/fcoaguilarm"
-  weight = 60
+  weight = 70
 
 
 # -- Footer Menu --

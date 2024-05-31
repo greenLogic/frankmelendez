@@ -7,7 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>© 2024 Francisco Aguilar Meléndez</copyright>
-    <lastBuildDate>Sun, 04 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Into the Lion&#39;s Den</title>
+      <link>//localhost:1313/es/projects/first-project/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/es/projects/first-project/</guid>
+      <description>Previous Nextsads asdfasfasdf
+{{ $url := .Get &amp;#34;url&amp;#34;}} {{ with resources.GetRemote (printf $url) }} {{ .Content | markdownify }} {{ else }} {{ errorf &amp;#34;Mardown Importer Shortcode - Unable to get remote resource&amp;#34; .</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/es/projects/first-project/cover.png" />
+    </item>
+    
+    <item>
+      <title>Into the Lion&#39;s Den 2</title>
+      <link>//localhost:1313/es/projects/another-project/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/es/projects/another-project/</guid>
+      <description>title: &amp;ldquo;Into the Lion&amp;rsquo;s Den&amp;rdquo; description: &amp;ldquo;This week we&amp;rsquo;re learning about lions.&amp;rdquo;
+algorithms: [&amp;ldquo;sorting&amp;rdquo;, &amp;ldquo;hashing&amp;rdquo;] # tags: [&amp;ldquo;machine learning&amp;rdquo;, &amp;ldquo;deep learning&amp;rdquo;] series: [&amp;ldquo;Projects&amp;rdquo;] series_order: 1
+date: 2024-04-04 draft: false # Previous Nextsads asdfasfasdf</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/es/projects/another-project/cover.png" />
+    </item>
+    
     <item>
       <title>Artigo super interessante que eu escrevi</title>
       <link>//localhost:1313/es/posts/post-lite-one/</link>
@@ -46,6 +69,26 @@
       <guid>//localhost:1313/es/posts/post-lite-four/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/post-lite-four/cover.png" />
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>//localhost:1313/es/singles/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/es/singles/cv/</guid>
+      <description>Francisco Aguilar Meléndez # Resumen # Científico de Datos y Ingeniero de Machine Learning con experiencia en Ciberseguridad, Análisis de Datos, Estrategia e IA. Historial comprobado de entregar soluciones impactantes.</description>
+      
+    </item>
+    
+    <item>
+      <title>Sobre Mi</title>
+      <link>//localhost:1313/es/singles/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/es/singles/about-me/</guid>
+      <description>Francisco Aguilar Melendez # Bienvenido a mi sitio web personal. Soy un profesional con un profundo interés en la Ciberseguridad, el Machine Learning, el Análisis de Datos, la Estrategia y la Inteligencia Artificial.</description>
+      
     </item>
     
   </channel>

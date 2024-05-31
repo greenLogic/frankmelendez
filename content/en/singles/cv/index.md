@@ -1,12 +1,46 @@
 ---
 title: "CV"
-description: "This week we're learning about lions."
-# algorithms: ["sorting", "hashing"]
-# tags: ["machine learning", "deep learning"]
-# series: ["Projects"]
-# series_order: 1
+description: "Job Experience, education, skills and certifications."
 layout: "simple"
 ---
+
+## Francisco Aguilar Meléndez
+
+### Summary
+Experienced Data Scientist and Machine Learning Engineer with expertise in Cybersecurity, Data Analysis, Strategy, and AI. Proven track record of delivering impactful solutions.
+
+### Experience
+- **[Company Name]**
+  - Role: Data Scientist
+  - Duration: [Start Date] - [End Date]
+  - Responsibilities: [Description of responsibilities and achievements]
+
+### Education
+- **[Degree]** in [Field], [University Name], [Year]
+
+### Skills
+- Machine Learning
+- Data Analysis
+- Cybersecurity
+- Strategy
+- Artificial Intelligence
+
+### Certifications and Awards
+
+### Projects
+
+### Publications and Presentations
+
+### Download a PDF version
+
+{{< button href="#button" target="_self" >}}
+Download a PDF version
+{{< /button >}}
+
+
+### Contact
+- Email: frank@frankmelendez.com
+
 
 
 2. CV Page:

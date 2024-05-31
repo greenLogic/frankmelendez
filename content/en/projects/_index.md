@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-description: "Learn about some of my projects."
+description: "Projects on my Portfolio, some works that showcase some professional skill or proof of concept."
 cascade:
   showReadingTime: false
 ---

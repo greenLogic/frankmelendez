@@ -16,8 +16,8 @@ showScrollToTop = true
 
 [homepage]
 layout = "background"
-homepageImage = "img/cover.png"
-showRecent = true
+# homepageImage = "img/cover.png"
+showRecent = false
 showRecentItems = 5
 showMoreLink = true
 showMoreLinkDest = "/posts"

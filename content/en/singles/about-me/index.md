@@ -1,12 +1,16 @@
 ---
 title: "About Me"
-description: "This week we're learning about lions."
-# algorithms: ["sorting", "hashing"]
-# tags: ["machine learning", "deep learning"]
-# series: ["Projects"]
-# series_order: 1
+description: "About me, and the purpose of the site."
 layout: "simple"
 ---
+
+## Francisco Aguilar Melendez
+
+Welcome to my personal website. I am a professional with a deep interest in Cybersecurity, Machine Learning, Data Analysis, Strategy, and Artificial Intelligence. This site serves as a portfolio of my projects and a place to share my thoughts on these subjects.
+
+Feel free to explore and learn more about my work and passions.
+
+
 
 1. About Me Page:
 Purpose:

@@ -92,7 +92,7 @@
     "name": "Into the Lion\u0027s Den",
     "headline": "Into the Lion\u0027s Den",
     "description": "This week we\u0027re learning about lions.",
-    "abstract": "Previous Nextsads asdfasfasdf\n{{ $url := .Get \u0026#34;url\u0026#34;}} {{ with resources.GetRemote (printf $url) }} {{ .Content | markdownify }} {{ else }} {{ errorf \u0026#34;Mardown Importer Shortcode - Unable to get remote resource\u0026#34; .",
+    "abstract": "Previous Nextsads asdfasfasdf\n{{ $url := .Get \u0026#34;url\u0026#34;}} {{ with resources.GetRemote (urls.Parse $url) }} {{ .Content | markdownify }} {{ else }} {{ errorf \u0026#34;Mardown Importer Shortcode - Unable to get remote resource\u0026#34; .",
     "inLanguage": "en",
     "url" : "\/\/localhost:1313\/projects\/first-project\/",
     "author" : {
@@ -1320,7 +1320,7 @@ data: {
 
 
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">{{</span> <span class="err">$</span><span class="nx">url</span> <span class="o">:=</span> <span class="p">.</span><span class="nx">Get</span> <span class="s">&#34;url&#34;</span><span class="p">}}</span>
-</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="nx">with</span> <span class="nx">resources</span><span class="p">.</span><span class="nf">GetRemote</span> <span class="p">(</span><span class="nx">printf</span> <span class="err">$</span><span class="nx">url</span><span class="p">)</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="nx">with</span> <span class="nx">resources</span><span class="p">.</span><span class="nf">GetRemote</span> <span class="p">(</span><span class="nx">urls</span><span class="p">.</span><span class="nx">Parse</span> <span class="err">$</span><span class="nx">url</span><span class="p">)</span> <span class="p">}}</span>
 </span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="p">.</span><span class="nx">Content</span> <span class="p">|</span> <span class="nx">markdownify</span> <span class="p">}}</span>
 </span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="k">else</span> <span class="p">}}</span>
 </span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="nx">errorf</span> <span class="s">&#34;Mardown Importer Shortcode - Unable to get remote resource&#34;</span> <span class="p">.</span> <span class="p">}}</span>
@@ -1357,9 +1357,9 @@ data: {
     <div class="m-0 mt-2 flex items-center">
 
       <span class="mr-1 inline-block h-3 w-3 rounded-full"
-        style="background-color: #f1e05a"></span>
+        style="background-color: #e34c26"></span>
       <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-         JavaScript 
+         HTML 
       </div>
 
       <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1372,7 +1372,7 @@ data: {
 
       </span>
       <div id="github-4fda120c88a65be66a056518ca2db5dc-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-        1115
+        1559
       </div>
 
       <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1385,7 +1385,7 @@ data: {
 
       </span>
       <div id="github-4fda120c88a65be66a056518ca2db5dc-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-        332
+        432
       </div>
 
     </div>
@@ -1454,7 +1454,6 @@ data: {
 <li>📚 mentoring @ <a href="https://mentorcruise.com/mentor/nunocorao/"   target="_blank">
     mentorcruise</a></li>
 </ul>
-<p><a href="https://www.buymeacoffee.com/nunocoracao" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a></p>
 <p>
 
 
@@ -1705,9 +1704,9 @@ With other shortcodes
     <div class="m-0 mt-2 flex items-center">
 
       <span class="mr-1 inline-block h-3 w-3 rounded-full"
-        style="background-color: #f1e05a"></span>
+        style="background-color: #e34c26"></span>
       <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-         JavaScript 
+         HTML 
       </div>
 
       <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1720,7 +1719,7 @@ With other shortcodes
 
       </span>
       <div id="github-263b502dee5768a1c3c8288060401598-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-        1115
+        1559
       </div>
 
       <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1733,7 +1732,7 @@ With other shortcodes
 
       </span>
       <div id="github-263b502dee5768a1c3c8288060401598-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-        332
+        432
       </div>
 
     </div>

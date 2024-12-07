@@ -15,7 +15,7 @@
       
       <guid>//localhost:1313/es/projects/first-project/</guid>
       <description>Previous Nextsads asdfasfasdf
-{{ $url := .Get &amp;#34;url&amp;#34;}} {{ with resources.GetRemote (printf $url) }} {{ .Content | markdownify }} {{ else }} {{ errorf &amp;#34;Mardown Importer Shortcode - Unable to get remote resource&amp;#34; .</description>
+{{ $url := .Get &amp;#34;url&amp;#34;}} {{ with resources.GetRemote (urls.Parse $url) }} {{ .Content | markdownify }} {{ else }} {{ errorf &amp;#34;Mardown Importer Shortcode - Unable to get remote resource&amp;#34; .</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/es/projects/first-project/cover.png" />
     </item>
     

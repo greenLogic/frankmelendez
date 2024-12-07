@@ -759,7 +759,7 @@
         
         <div class="py-1 prose dark:prose-invert">
           Previous Nextsads asdfasfasdf
-{{ $url := .Get &#34;url&#34;}} {{ with resources.GetRemote (printf $url) }} {{ .Content | markdownify }} {{ else }} {{ errorf &#34;Mardown Importer Shortcode - Unable to get remote resource&#34; .
+{{ $url := .Get &#34;url&#34;}} {{ with resources.GetRemote (urls.Parse $url) }} {{ .Content | markdownify }} {{ else }} {{ errorf &#34;Mardown Importer Shortcode - Unable to get remote resource&#34; .
         </div>
         
       </div>

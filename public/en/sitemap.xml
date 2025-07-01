@@ -99,22 +99,6 @@
     />
   </url>
   <url>
-    <loc>//localhost:1313/series/projects/</loc>
-    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/series/projects/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/series/projects/"
-    />
-  </url>
-  <url>
     <loc>//localhost:1313/projects/</loc>
     <lastmod>2024-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -128,6 +112,22 @@
       rel="alternate"
       hreflang="en"
       href="//localhost:1313/projects/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/series/projects/</loc>
+    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/series/projects/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/series/projects/"
     />
   </url>
   <url>
@@ -227,22 +227,6 @@
     />
   </url>
   <url>
-    <loc>//localhost:1313/tags/post/</loc>
-    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/tags/post/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/tags/post/"
-    />
-  </url>
-  <url>
     <loc>//localhost:1313/categories/post/</loc>
     <lastmod>2022-09-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -256,6 +240,22 @@
       rel="alternate"
       hreflang="en"
       href="//localhost:1313/categories/post/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/post/</loc>
+    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/tags/post/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/tags/post/"
     />
   </url>
   <url>

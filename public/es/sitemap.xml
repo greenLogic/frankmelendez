@@ -275,22 +275,6 @@
     />
   </url>
   <url>
-    <loc>//localhost:1313/es/tags/post/</loc>
-    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/tags/post/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/tags/post/"
-    />
-  </url>
-  <url>
     <loc>//localhost:1313/es/categories/post/</loc>
     <lastmod>2022-09-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -304,6 +288,22 @@
       rel="alternate"
       hreflang="es"
       href="//localhost:1313/es/categories/post/"
+    />
+  </url>
+  <url>
+    <loc>//localhost:1313/es/tags/post/</loc>
+    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/tags/post/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="//localhost:1313/es/tags/post/"
     />
   </url>
   <url>

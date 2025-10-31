@@ -3,38 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>//localhost:1313/es/tags/data-science/</loc>
-    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/tags/data-science/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/tags/data-science/"
-    />
-  </url>
-  <url>
-    <loc>//localhost:1313/es/tags/deep-learning/</loc>
-    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/tags/deep-learning/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/tags/deep-learning/"
-    />
-  </url>
-  <url>
     <loc>//localhost:1313/es/</loc>
     <lastmod>2024-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -83,38 +51,6 @@
     />
   </url>
   <url>
-    <loc>//localhost:1313/es/tags/machine-learning/</loc>
-    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/tags/machine-learning/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/tags/machine-learning/"
-    />
-  </url>
-  <url>
-    <loc>//localhost:1313/es/series/projects/</loc>
-    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/series/projects/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/series/projects/"
-    />
-  </url>
-  <url>
     <loc>//localhost:1313/es/projects/</loc>
     <lastmod>2024-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -128,38 +64,6 @@
       rel="alternate"
       hreflang="es"
       href="//localhost:1313/es/projects/"
-    />
-  </url>
-  <url>
-    <loc>//localhost:1313/es/series/</loc>
-    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/series/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/series/"
-    />
-  </url>
-  <url>
-    <loc>//localhost:1313/es/tags/</loc>
-    <lastmod>2024-04-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/tags/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/tags/"
     />
   </url>
   <url>
@@ -211,102 +115,6 @@
     />
   </url>
   <url>
-    <loc>//localhost:1313/es/categories/blog/</loc>
-    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/categories/blog/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/categories/blog/"
-    />
-  </url>
-  <url>
-    <loc>//localhost:1313/es/categories/</loc>
-    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/categories/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/categories/"
-    />
-  </url>
-  <url>
-    <loc>//localhost:1313/es/tags/ipsum/</loc>
-    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/tags/ipsum/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/tags/ipsum/"
-    />
-  </url>
-  <url>
-    <loc>//localhost:1313/es/tags/lorem/</loc>
-    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/tags/lorem/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/tags/lorem/"
-    />
-  </url>
-  <url>
-    <loc>//localhost:1313/es/categories/post/</loc>
-    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/categories/post/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/categories/post/"
-    />
-  </url>
-  <url>
-    <loc>//localhost:1313/es/tags/post/</loc>
-    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/tags/post/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/tags/post/"
-    />
-  </url>
-  <url>
     <loc>//localhost:1313/es/posts/</loc>
     <lastmod>2022-09-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -336,36 +144,6 @@
       rel="alternate"
       hreflang="es"
       href="//localhost:1313/es/posts/post-lite-four/"
-    />
-  </url>
-  <url>
-    <loc>//localhost:1313/es/algorithms/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/algorithms/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/algorithms/"
-    />
-  </url>
-  <url>
-    <loc>//localhost:1313/es/authors/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="//localhost:1313/authors/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="//localhost:1313/es/authors/"
     />
   </url>
   <url>

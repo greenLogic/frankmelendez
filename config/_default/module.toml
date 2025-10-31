@@ -1,3 +1,12 @@
 [hugoVersion]
-  extended = false
-  min = "0.87.0"
+  extended = true
+
+theme = "blowfish"
+
+[module]
+#vendor = true
+
+[[imports]]
+#path = "github.com/nunocoracao/blowfish"
+#version = "v2.91.0"
+

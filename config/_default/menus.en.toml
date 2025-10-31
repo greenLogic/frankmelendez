@@ -1,7 +1,7 @@
 # -- Main Menu --
 # The main menu is displayed in the header at the top of the page.
 # Acceptable parameters are name, pageRef, page, url, title, weight.
-# 
+#
 # The simplest menu configuration is to provide:
 #   name = The name to be displayed for this menu link
 #   pageRef = The identifier of the page or section to link to
@@ -11,41 +11,78 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Posts"
-  pageRef = "posts"
-  weight = 10
+name = "Blog"
+pageRef = "posts"
+weight = 10
 
 [[main]]
-  name = "Portfolio"
-  pageRef = "projects"
-  weight = 20
+name = "Portfolio"
+pageRef = "projects"
+weight = 20
 
 [[main]]
-  name = "CV"
-  pageRef = "singles/cv"
-  weight = 30
+name = "CV"
+pageRef = "singles/cv"
+weight = 30
 
 [[main]]
-  name = "About Me"
-  pageRef = "singles/about-me"
-  weight = 40
+name = "About Me"
+pageRef = "singles/about-me"
+weight = 40
 
 [[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 50
+name = "Tags"
+pageRef = "tags"
+weight = 50
 
 [[main]]
-  identifier = "github"
-  pre = "github"
-  url = "https://github.com/greenLogic"
-  weight = 60
+identifier = "github"
+pre = "github"
+url = "https://github.com/greenLogic"
+weight = 60
 
 [[main]]
-  identifier = "linkedin"
-  pre = "linkedin"
-  url = "https://www.linkedin.com/in/fcoaguilarm"
-  weight = 70
+identifier = "linkedin"
+pre = "linkedin"
+url = "https://www.linkedin.com/in/fcoaguilarm"
+weight = 70
+
+#[[main]]
+#  name = "Parent"
+#  weight = 20
+
+#[[main]]
+#  name = "example sub-menu 1"
+#  parent = "Parent"
+#  pageRef = "posts"
+#  weight = 20
+
+#[[main]]
+#  name = "example sub-menu 2"
+#  parent = "Parent"
+#  pageRef = "posts"
+#  weight = 20
+
+#[[subnavigation]]
+#  name = "An interesting topic"
+#  pageRef = "tags/interesting-topic"
+#  weight = 10
+
+#[[subnavigation]]
+#  name = "My Awesome Category"
+#  pre = "github"
+#  pageRef = "categories/awesome"
+#  weight = 20
+
+#[[main]]
+#  name = "Categories"
+#  pageRef = "categories"
+#  weight = 20
+
+#[[main]]
+#  name = "Tags"
+#  pageRef = "tags"
+#  weight = 30
 
 
 # -- Footer Menu --
@@ -53,7 +90,13 @@
 # the copyright notice. Configure as per the main menu above.
 
 
- [[footer]]
-   name = "Tags"
-   pageRef = "tags"
-   weight = 10
+[[footer]]
+name = "Tags"
+pageRef = "tags"
+weight = 10
+
+
+# [[footer]]
+#   name = "Categories"
+#   pageRef = "categories"
+#   weight = 20

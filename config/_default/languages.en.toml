@@ -12,7 +12,7 @@ rtl = false
 dateFormat = "2 January 2006"
 logo = "img/logo.png"
 # secondaryLogo = "img/secondary-logo.png"
-description = "My awesome website"
+description = "With over six years in Business Intelligence and three in data science and machine learning, I have built dashboards, financial simulations, and risk analysis tools. Today I am developing an educational platform with personalized content and dynamic difficulty scaling, built on Linux and cloud-native architectures"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
@@ -20,8 +20,8 @@ name = "Francisco Aguilar Meléndez"
 #   email = "youremail@example.com"
 image = "img/blowfish_logo.png"
 #   imageQuality = 96
-headline = "Data Scientist and Aspiring Machine Learning Engineer"
-bio = "This website is where I showcase projects that I find intriguing, requiring essential skills or concepts in the areas of data analysis, machine learning, cybersecurity, strategy, and artificial intelligence. Some are blog entries discussing topics that intersect these themes and their real-life implications"
+headline = "Data Scientist and ML/AI Engineer | Co-founder of an accessible and sustainable educational platform"
+bio = "Data Scientist and ML/AI Engineer with experience in Business Intelligence and data science projects. Co-founder of an educational company, where I develop a lightweight and scalable platform aimed at democratizing access to learning."
 links = [
   { email = "mailto:frank@frankmelendez.com" },
   { linkedin = "https://www.linkedin.com/in/fcoaguilarm" },

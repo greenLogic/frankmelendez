@@ -10,15 +10,15 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-[[main]]
-name = "Blog"
-pageRef = "posts"
-weight = 10
+# [[main]]
+# name = "Blog"
+# pageRef = "posts"
+# weight = 10
 
-[[main]]
-name = "Portfolio"
-pageRef = "projects"
-weight = 20
+# [[main]]
+# name = "Portfolio"
+# pageRef = "projects"
+# weight = 20
 
 [[main]]
 name = "CV"
@@ -26,14 +26,14 @@ pageRef = "singles/cv"
 weight = 30
 
 [[main]]
-  name = "Sobre Mi"
-  pageRef = "singles/about-me"
-  weight = 40
+name = "Sobre Mi"
+pageRef = "singles/about-me"
+weight = 40
 
-[[main]]
-name = "Tags"
-pageRef = "tags"
-weight = 50
+# [[main]]
+# name = "Tags"
+# pageRef = "tags"
+# weight = 50
 
 [[main]]
 identifier = "github"

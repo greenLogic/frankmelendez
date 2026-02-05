@@ -12,7 +12,7 @@ rtl = false
 dateFormat = "2 January 2006"
 logo = "img/logo.png"
 # secondaryLogo = "img/secondary-logo.png"
-description = "Explora proyectos innovadores e ideas en la intersección del análisis de datos, el aprendizaje automático, la ciberseguridad, la estrategia y la inteligencia artificial. Sumérgete en entradas de blog que abordan temas que combinan estos campos y exploran sus implicaciones en el mundo real"
+description = "Con más de seis años en Business Intelligence y tres en ciencia de datos y machine learning, he creado dashboards, simulaciones financieras y herramientas de análisis de riesgos. Hoy desarrollo una plataforma educativa con contenido personalizado y escalado dinámico, basada en Linux y arquitecturas nativas para la nube."
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
@@ -20,14 +20,14 @@ name = "Francisco Aguilar Meléndez"
 #   email = "youremail@example.com"
 image = "img/blowfish_logo.png"
 #   imageQuality = 96
-headline = "Data Scientist y Aspirante a Machine Learning Engineer"
-bio = "Este sitio web es donde publico proyectos que encuentro interesantes, que requieren habilidades o conceptos fundamentales en áreas como el análisis de datos, el aprendizaje automático, la ciberseguridad, la estrategia y la inteligencia artificial. Algunos son entradas de blog sobre temas que intersectan estos campos y sus implicaciones en la vida real"
+headline = "Data Scientist y ML/AI Engineer con experiencia en Business Intelligence y Automatización"
+bio = "De 2016 a 2022 trabajé como consultor de Business Intelligence, creando dashboards, modelos de simulación de portafolios y soluciones de análisis con R, Shiny, Julia, Python y Nim. Entre 2022 y 2024 me enfoqué en proyectos de ciencia de datos y machine learning, obteniendo certificaciones en deep learning y ML, y aplicando estas técnicas en consultoría. En 2025 cofundé una empresa en el sector educativo junto con otro socio. En la práctica asumimos funciones de dirección técnica y estratégica, desarrollando una plataforma desde cero que integra Linux, Docker y LLMs. El objetivo es ofrecer aprendizaje accesible y sostenible, con contenido personalizado y escalado dinámico de dificultad, sobre arquitecturas ligeras y nativas para la nube. También practico ciberseguridad como consultor independiente, aunque mi interés principal está en el diseño de soluciones de datos y ML aplicadas a problemas reales."
 links = [
   { email = "mailto:frank@frankmelendez.com" },
   { linkedin = "https://www.linkedin.com/in/fcoaguilarm" },
-  { github = "https://github.com/greenLogic" },
-  { hashnode = "https://crackerfrank.hashnode.dev/" },
-  { leetcode = "https://leetcode.com/u/greenLogic/" },
-  { kaggle = "https://www.kaggle.com/frankam" },
-  { huggingface = "https://huggingface.co/frankam" },
+  # { github = "https://github.com/greenLogic" },
+  # { hashnode = "https://crackerfrank.hashnode.dev/" },
+  # { leetcode = "https://leetcode.com/u/greenLogic/" },
+  # { kaggle = "https://www.kaggle.com/frankam" },
+  # { huggingface = "https://huggingface.co/frankam" },
 ]

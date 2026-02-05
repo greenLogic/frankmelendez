@@ -25,9 +25,9 @@ bio = "This website is where I showcase projects that I find intriguing, requiri
 links = [
   { email = "mailto:frank@frankmelendez.com" },
   { linkedin = "https://www.linkedin.com/in/fcoaguilarm" },
-  { github = "https://github.com/greenLogic" },
-  { hashnode = "https://crackerfrank.hashnode.dev/" },
-  { leetcode = "https://leetcode.com/u/greenLogic/" },
-  { kaggle = "https://www.kaggle.com/frankam" },
-  { huggingface = "https://huggingface.co/frankam" },
+  # { github = "https://github.com/greenLogic" },
+  # { hashnode = "https://crackerfrank.hashnode.dev/" },
+  # { leetcode = "https://leetcode.com/u/greenLogic/" },
+  # { kaggle = "https://www.kaggle.com/frankam" },
+  # { huggingface = "https://huggingface.co/frankam" },
 ]

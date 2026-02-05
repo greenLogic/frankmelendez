@@ -1,0 +1,36 @@
+# Hugo build output
+public/
+resources/
+exampleSite/resources/
+
+# Hugo lock file
+.hugo_build.lock
+
+# Node modules
+node_modules/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.idea
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Firebase / scripts
+scripts/serviceAccountKey.json
+scripts/node_modules/
+scripts/*.csv
+
+# Temporary exports
+ga-pageviews.csv
+*.csv
